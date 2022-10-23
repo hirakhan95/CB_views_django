@@ -1,0 +1,7 @@
+<h2>Are you sure you want to delete this teacher???</h2>
+<h3>{{teacher}}</h3>
+
+<form method="post">
+    {% csrf_token %}
+    <input type="submit" value="Confirm Delete">
+</form>
